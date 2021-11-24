@@ -321,6 +321,13 @@ body {
         background-image: url(./../images/icons/arrow-right.svg);
 }
 
+.scale {
+    transition: 2s;
+}
+.scale:hover {
+    transform: scale(1.1);
+}
+
 .article-img:nth-child(odd) {
     margin-right: 120px;
     margin-left: 5px;
