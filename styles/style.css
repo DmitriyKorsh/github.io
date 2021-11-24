@@ -420,3 +420,11 @@ body {
     opacity: 1;
     transition: all 0.25s ease-in;
 }
+
+/*icons*/
+.fa-compass {
+    margin-right: 15px;
+}
+.fa-location-arrow {
+    margin-right: 15px;
+}
