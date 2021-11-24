@@ -151,7 +151,7 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     text-decoration: none;
-    transition: transform 0.8s cubic-bezier(0.685, 0.040, 0.585, 1.650);;
+    transition: transform 0.8s ease;
 }
 
 .hero:hover {
