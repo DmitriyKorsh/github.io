@@ -1,6 +1,18 @@
+@media screen and (max-width:600px) {
+    .conteiner-width, .header, .body, .hero-title, .container {
+      width: 100%;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: "Gilroy";
@@ -32,7 +44,7 @@ body {
 
 .header {
     padding-top: 64px;
-    margin-bottom: 305px;
+    margin-bottom: 370px;
 }
 
 .logo {
@@ -41,9 +53,11 @@ body {
     font-size: 32px;
     
 }
+
 .nav-wrapper {
     margin-bottom: 198px;
 }
+
 .nav ul {
     font-weight: bold;
     display: flex;
@@ -362,6 +376,7 @@ body {
     line-height: 1.78;
     color:rgba(255, 255, 255, 0.5);
     margin-top: auto;
+
 }
 
 .footer-nav + .footer-nav {
@@ -378,6 +393,7 @@ body {
     font-size: 24px;
     line-height: 1.33;
     color: #FBD784;
+    margin-bottom: 15px;
 }
 
 .footer-nav ul {
@@ -389,7 +405,7 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .foo.footer-nav li:last-child {
@@ -431,7 +447,16 @@ body {
 /*icons*/
 .fa-compass {
     margin-right: 15px;
+    max-width: 20px;
+    max-height: 20px;
 }
 .fa-location-arrow {
     margin-right: 15px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.fa-compass:hover, .fa-location-arrow:hover {
+    transform: rotatex(360deg);
+    transition: all 1s ease-in;
 }
