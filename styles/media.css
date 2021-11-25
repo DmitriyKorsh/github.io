@@ -155,4 +155,9 @@
     .footer-nav-wrapper {
         margin-bottom: 100px;
     }
+    .article-text::before {
+        transform: translateY(-50%);
+        left: 0;
+        top: 20px;
+    }
 }
